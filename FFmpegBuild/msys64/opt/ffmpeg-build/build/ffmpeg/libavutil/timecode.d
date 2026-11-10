@@ -1,0 +1,19 @@
+libavutil/timecode.o: \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/timecode.c \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/common.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/attributes.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/error.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/macros.h \
+ libavutil/avconfig.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/version.h \
+ config.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/intmath.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/x86/intmath.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/internal.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/libm.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/mathematics.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/rational.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/intfloat.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/timecode.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/timecode_internal.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/log.h

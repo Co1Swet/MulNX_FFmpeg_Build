@@ -1,0 +1,7 @@
+LIBSWRESAMPLE_7 {
+    global:
+        swr_*;
+        swresample_*;
+    local:
+        *;
+};

@@ -1,0 +1,7 @@
+LIBAVFILTER_12 {
+    global:
+        avfilter_*;
+        av_*;
+    local:
+        *;
+};

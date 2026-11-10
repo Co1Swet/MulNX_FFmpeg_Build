@@ -1,0 +1,33 @@
+libavcodec/h264dsp.o: \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavcodec/h264dsp.c \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/attributes.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/avassert.h \
+ config.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/attributes.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/log.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/version.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/macros.h \
+ libavutil/avconfig.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavcodec/h264dsp.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavcodec/h264idct.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavcodec/startcode.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/common.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/error.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/intmath.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/x86/intmath.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/internal.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/libm.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/mathematics.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/rational.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/intfloat.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavcodec/h264dsp_template.c \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavcodec/bit_depth_template.c \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavcodec/mathops.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/attributes_internal.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavcodec/x86/mathops.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavcodec/rnd_avg.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/intreadwrite.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/bswap.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/x86/bswap.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/x86/intreadwrite.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavcodec/h264addpx_template.c

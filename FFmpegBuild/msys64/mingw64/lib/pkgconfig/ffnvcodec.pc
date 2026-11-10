@@ -1,0 +1,7 @@
+prefix=C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/mingw64
+includedir=${prefix}/include
+
+Name: ffnvcodec
+Description: FFmpeg version of Nvidia Codec SDK headers
+Version: 12.2.72.0
+Cflags: -I${includedir}

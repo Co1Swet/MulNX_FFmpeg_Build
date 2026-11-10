@@ -1,0 +1,14 @@
+prefix=/opt/ffmpeg-build/ffmpeg_install
+exec_prefix=${prefix}
+libdir=/opt/ffmpeg-build/ffmpeg_install/lib
+includedir=/opt/ffmpeg-build/ffmpeg_install/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 63.7.100
+Requires: 
+Requires.private: libavutil >= 61.5.100
+Conflicts:
+Libs: -L${libdir}  -lavcodec 
+Libs.private: -liconv -lm -latomic -LC:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/mingw64/lib -lz -lmp3lame -lm -LC:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/mingw64/lib -lopenh264 -lstdc++ -lgcc -lgcc_eh -lwinpthread -lmfuuid -lole32 -lstrmiids -lole32 -luser32
+Cflags: -I${includedir}

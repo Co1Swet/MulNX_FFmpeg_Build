@@ -1,0 +1,29 @@
+libavutil/video_hint.o: \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/video_hint.c \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/avstring.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/attributes.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/frame.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/avutil.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/common.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/error.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/macros.h \
+ libavutil/avconfig.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/version.h \
+ config.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/intmath.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/x86/intmath.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/internal.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/libm.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/mathematics.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/rational.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/intfloat.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/log.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/pixfmt.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/buffer.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/channel_layout.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/dict.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/samplefmt.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/mem.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/video_hint.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/avassert.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/frame.h

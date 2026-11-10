@@ -1,0 +1,21 @@
+libavformat/ip.o: \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavformat/ip.c \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavformat/ip.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavformat/network.h \
+ config.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/error.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/macros.h \
+ libavutil/avconfig.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavformat/os_support.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/mem.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/attributes.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/wchar_filename.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/mem.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavformat/avio.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/attributes.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/dict.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/log.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/version.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavformat/version_major.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavformat/url.h \
+ C:/Users/lenovo/Desktop/MulNX_Dev/MulNX_FFmpeg_Build/FFmpegBuild/msys64/opt/ffmpeg-build/ffmpegs/libavutil/avstring.h

@@ -286,6 +286,7 @@ Programming & development tools
 Software development
 * GNU libunistring: (libunistring).
                                 Unicode string library.
+* Make: (make).                 Remake files automatically.
 
 Software libraries
 * GnuTLS: (gnutls).             GNU Transport Layer Security Library.
