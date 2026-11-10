@@ -72,6 +72,16 @@ FFmpeg 的完整构建环境包含数万个文件（近 3 万个散碎文件，�
 | `FFmpegBuild/msys64/var/lib/pacman/` | 包管理器数据库，记录所有已安装依赖的版本与元数据 |
 | `FFmpegBuild/msys64/var/log/pacman.log` | 完整的包安装与构建日志 |
 
+### 构建方式
+
+在 MSYS2 `MINGW64` 环境中运行 `FFmpegBuild/msys64/opt/ffmpeg-build/build_all.sh`。FFmpeg 会在源码树外的 `opt/ffmpeg-build/build/ffmpeg/` 配置和编译。编码器白名单包含 H.264（NVENC、Media Foundation、OpenH264）、FLAC、MP3（`libmp3lame` 与 Media Foundation）和 `pcm_s16le`；脚本会检查没有其他编码器被启用。容器层启用 MP4/MOV（`mov` demuxer、`mp4`/`mov` muxer）与 Matroska/MKV 的读取和写出，并保留 FLAC、MP3、WAV 的读写支持。这里只启用本构建所选编码格式的容器读写能力，不代表支持容器中所有可能的编码格式；可解码的流仍受本构建启用的解码器限制。AAC 编码器、解码器和 parser 均保持禁用；HEVC 解码器及 parser 也禁用，所以含 AAC 或 HEVC 的文件不能保证完整解码处理。HTTP 协议已关闭，仅保留本地文件协议。DirectShow 输入通过 `avdevice` 库启用；由于 `--disable-programs`，构建只输出 FFmpeg 库，不生成 `ffmpeg.exe` / `ffprobe.exe`。MP3 的 LAME 开发库由构建脚本通过 MSYS2 安装；Media Foundation MP3 编码器则依赖运行 Windows 上可用的兼容 MFT，`libmp3lame` 可作为稳定替代。
+
+音频处理启用 `apad`（补静音）、`atrim`（裁剪）、`asetpts`（重建时间戳）、`aresample`（重采样）、`volume`（音量调整）、`amix`（混音）、`concat`（拼接）和 `anullsrc`（生成静音源）滤镜。轻中度视频编辑启用缩放/格式转换、裁剪、水平/垂直翻转、旋转/转置、帧率和时间戳调整、宽高比设置、淡入淡出、色彩平衡/色相、锐化、画框、补帧及交叉淡化（`scale`、`format`、`crop`、`hflip`、`vflip`、`transpose`、`rotate`、`fps`、`setpts`、`setsar`、`setdar`、`fade`、`colorbalance`、`hue`、`unsharp`、`drawbox`、`tpad`、`xfade`）。未启用依赖 GPL 的 `eq` 滤镜，也未启用需要额外字体库的 `drawtext`。安装产物会先暂存并验证，成功后再更新到 `opt/ffmpeg-build/ffmpeg_install/`。已有安装会保留在 `opt/ffmpeg-build/build/ffmpeg-install-backup*` 中以便回退。
+
+H.264 D3D11VA 与 NVENC 支持均启用。除旧式 `h264_d3d11va` 外，也启用 `h264_d3d11va2` 帧上下文模式：它可提供 `AV_PIX_FMT_D3D11` 帧，供 NVENC 直接消费；只有解码与编码共用兼容 D3D11 设备/帧上下文时，才能实现无系统内存往返的路径。`hwupload`、`hwdownload`、`hwmap` 以及 `scale_d3d11` 也已启用：`hwdownload` 会发生 GPU 到 CPU 拷贝，不能用于零拷贝路径；`hwmap` 用于支持的硬件帧映射，`scale_d3d11` 可在 D3D11 设备上缩放。其他通用视频滤镜多为软件滤镜，使用它们可能需要硬件帧下载/上传，需结合实际滤镜链验证是否保持零拷贝。构建脚本会检查 D3D11VA2 hwaccel 是否启用。MSYS2 的 LAME 4 静态库还依赖 `mpg123`/`shlwapi`；构建会将这些依赖静态链接，并在 DLL 依赖检查中确认未泄漏为运行时 DLL。
+
+音频格式选择以减少已知专利负担为目标：FLAC 是无损格式，MP3 主要相关专利的授权项目已于 2017 年终止；这不构成法律意见或对任何地区、实现及第三方权利的绝对保证。分发前仍应核查具体依赖的许可证和适用法律。
+
 ---
 
 ## 📜 许可证与合规声明
